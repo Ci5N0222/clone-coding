@@ -6,23 +6,7 @@ youtube clone coding
 3. video-metadata
 4. up-next
 
-1. navbar
-    - logo
-    - icon
-2. video
-3. video-metadata 
-    - hash tag
-    - title
-    - content-infomation
-    - button
-    
-VSCode html 기능
-header+section.player+section.info+section.up-next 입력 후 Tab 
-header태그 + section태그의 클래스 player + ...
-<header></header>
-<section class="player"></section>
-<section class="info"></section>
-<section class="up-next"></section>
+Help!!!
 
 MDN Html Elements Reference:
 https://developer.mozilla.org/en-US/d...
