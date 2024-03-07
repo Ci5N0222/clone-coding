@@ -310,3 +310,11 @@ footer .infomation > p {
     min-height: 850px;
     background: var(--main-color);
 }
+
+.sign-in-main .sign-in-form {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 500px;
+    background: var(--black-color);
+}
