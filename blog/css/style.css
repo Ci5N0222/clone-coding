@@ -24,6 +24,10 @@
     box-sizing: bor;
 }
 
+a {
+    
+}
+
 ul {
     list-style: none;
 }
@@ -53,7 +57,7 @@ header .nav-logo {
     height: 40px;
 }
 
-header .nav-logo img {
+header .nav-logo > img {
     height: 100%;
     border-radius: 40%;
 }
