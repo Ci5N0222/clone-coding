@@ -255,27 +255,31 @@ footer .infomation > p {
 
 /* Sign-Up */
 .sign-up-main {
-    padding: 30px;
+    padding: 80px;
     background-color: var(--main-color);
     height: 100%;
 }
 
 .sign-up-main .sign-up-content {
     background-color: var(--white-color);
-    padding: 30px;
+    padding: 40px;
     width: 80%;
     max-width: 600px;
     margin: auto;
 }
 
 .sign-up-main .sign-up-content .w-50 {
-    width: 50%;
+    width: 45%;
     float: left;
     padding: 10px;
 } 
 
 .sign-up-main .sign-up-content .w-100 {
     padding: 10px;
+}
+
+.sign-up-main .sign-up-content .w-100 > h2 {
+    margin-bottom: 30px;
 }
 
 .sign-up-input {
