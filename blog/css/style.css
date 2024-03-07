@@ -267,10 +267,13 @@ footer .infomation > p {
     max-width: 600px;
     margin: auto;
 }
-
+.sign-up-main .sign-up-content .naem {
+    display: flex;
+    justify-content: space-between;
+}
 .sign-up-main .sign-up-content .w-50 {
-    width: 45%;
-    float: left;
+    width: 40%;
+    margin-right: 5px;
     padding: 10px;
 } 
 
