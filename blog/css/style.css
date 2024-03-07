@@ -25,7 +25,20 @@
 }
 
 a {
-    
+    text-decoration: none;
+    color: var(--white-color);
+}
+a:link {
+    color: var(--white-color);
+}
+a:visited {
+    color: var(--white-color);
+}
+a:hover {
+    color: var(--white-color);
+}
+a:active {
+    color: var(--white-color);
 }
 
 ul {
