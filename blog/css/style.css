@@ -1,0 +1,236 @@
+/* 사용할 값 미리 변수로 저장 */
+:root {
+    /* Color */
+    --white-color: #fff;
+    --black-color: #140a08;
+    
+    /* Size */
+    --padding: 12px;
+    --avatar-size: 35px;
+
+    /* Font-Size */
+    --font-big: 25px;
+    --font-large: 20px;
+    --font-medium: 16px;
+    --font-small: 12px;
+    --font-micro: 8px;
+
+}
+
+/* 기본 태그에 적용할 값 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: bor;
+}
+
+ul {
+    list-style: none;
+}
+
+button,
+button:focus {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding) 0;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+
+header .nav-logo {
+    display: flex;
+    flex-direction: column;
+    margin-left: var(--padding);
+    height: 40px;
+}
+
+header .nav-logo img {
+    height: 100%;
+    border-radius: 40%;
+}
+
+header .nav-item {
+    display: flex;
+}
+
+header .nav-item > li{
+    margin-right: var(--padding);
+}
+
+header .fa-circle-user {
+    margin-right: var(--padding);
+    font-size: var(--font-large);
+}
+
+.main-form {
+    width: 100%;
+    height: 100%;
+    background-color: #e4dede;
+}
+
+.main-form .main-top {
+    background: var(--black-color);
+    color: var(--white-color);
+    padding: var(--padding);
+    height: 200px;
+    text-align: center;
+
+}
+.main-form .main-top > p {
+    font-size: calc(var(--font-big)*1.5);
+    font-weight: 800;
+    padding: var(--padding);
+}
+
+.main-form .main-top > span {
+    display: block;
+    padding: var(--padding);
+    font-size: var(--font-large);
+}
+
+.main-form .main-top > button {
+    padding: calc(var(--padding)*1.2);
+    background: var(--white-color);
+    color: var(--black-color);
+    font-size: var(--font-medium);
+    font-weight: 700;
+    margin-left: var(--padding);
+    margin-top: var(--padding);
+}
+
+.main-form .main-content {
+    background: #f7f5f5;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 35%;
+}
+
+.main-form .main-content .title {
+    text-align: center;
+    padding: var(--padding);
+    height: 35%;
+}
+
+.main-form .main-content .title > p {
+    font-size: var(--font-large);
+    font-weight: 700;
+    margin-top: 10px;
+}
+.main-form .main-content .title > span {
+    display: block;
+    margin-top: 10px;
+    font-size: var(--font-medium);
+}
+
+.main-form .main-content .title > img {
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+}
+
+.main-form .main-content .title .like-replies {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.main-form .main-content .title .like-replies > button {
+    font-size: var(--font-medium);
+    font-weight: 700;
+    padding: calc(var(--padding)*1.2);
+    background: var(--black-color);
+    color: var(--white-color);
+}
+
+.main-inspiration {
+    background: #f7f5f5;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 35%;
+}
+
+.main-inspiration .title {
+    background: var(--black-color);
+    color: var(--white-color);
+    width: 100%;
+    min-height: 50px;
+}
+
+.main-inspiration .title > span {
+    display: block;
+    padding: var(--padding);
+    font-size: var(--font-medium);
+    font-weight: 700;
+}
+
+.main-inspiration .image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: var(--padding);
+}
+.main-inspiration .image > img {
+    padding: var(--padding);
+    width: 45%;
+}
+
+.main-form > div {
+    width: 100%;
+    height: 20px;
+    
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background: var(--black-color);
+}
+
+footer .logo {
+    display: block;
+    width: 20%;
+    height: 100%;
+}
+
+footer .logo > img {
+    margin: 30px 20px 0px 20px;
+    border-radius: 40%;
+    width: 60px;
+    height: 60px;
+
+}
+
+footer .logo > p {
+    margin: 0px 20px 20px 23px;
+    font-size: var(--font-large);
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+footer .infomation {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .infomation > p {
+    margin-top: 10px;
+    color: var(--white-color);
+}

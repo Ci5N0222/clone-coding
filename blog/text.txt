@@ -1,0 +1,27 @@
+# View Extension
+- Live server
+    - How to use it
+    1. create folder .vscode
+    2. create file settings.json in .vscode
+    3. { "liveServer.settings.port": "you'r want to port setting (ex:5501)" }
+
+
+# To be helped
+1. MDN Html Elements Reference:
+    - HTML : https://developer.mozilla.org/ko/docs/Web/HTML
+    - CSS : https://developer.mozilla.org/ko/docs/Web/CSS
+    - JavaScript : https://developer.mozilla.org/ko/docs/Web/JavaScript
+
+2. Color Tool:
+    - https://material.io/resources/color
+
+3. Font Aswome:
+    - https://fontawesome.com/start
+
+4. Google Fonts:
+    - https://fonts.google.com/
+
+
+# Images sources
+1. free image :
+    - https://pixabay.com/
