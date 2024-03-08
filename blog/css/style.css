@@ -314,6 +314,7 @@ footer .infomation > p {
 .sign-in-main .sign-in-form {
     display: block;
     margin: 0 auto;
+    padding: 10px audo;
     width: 80%;
     height: 500px;
     background: var(--black-color);
