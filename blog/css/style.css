@@ -264,7 +264,7 @@ footer .infomation > p {
     max-width: 600px;
     margin: auto;
 }
-.sign-up-main .sign-up-content .naem {
+.sign-up-main .sign-up-content .name {
     display: flex;
     justify-content: space-between;
 }
@@ -313,4 +313,12 @@ footer .infomation > p {
     width: 80%;
     max-width: 600px;
     margin: auto;
+}
+
+.sign-in-main .sign-in-form .w-100 {
+    padding: 10px;
+}
+
+.sign-in-main .sign-in-form .w-100 > h2 {
+    margin-bottom: 30px;
 }
